@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Coco's favorite restaurant
+    </title>
+</head>
+
+<body>
+    <header>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7e8edb2b-29f3-4860-823a-fd26ba328e87/dhzists-c7d93bb7-ef2c-4e50-b336-5e6e1dbda627.png/v1/fill/w_1280,h_688/_what_if_____dreamworks_coco_logo__2017__by_thomas19855_dhzists-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njg4IiwicGF0aCI6Ii9mLzdlOGVkYjJiLTI5ZjMtNDg2MC04MjNhLWZkMjZiYTMyOGU4Ny9kaHppc3RzLWM3ZDkzYmI3LWVmMmMtNGU1MC1iMzM2LTVlNmUxZGJkYTYyNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Rba2YA0wY2eYuPgb2V8oFDrv5HHYLg6SFQBl9mEsLi8"
+            id="#header-img" alt="header image" width="10%" height="10%">
+        <h1>Coco's favorite restaurant</h1>
+        <nav>
+            <a href="#menu">menu</a>
+            <a href="#order-form">order form</a>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <article>
+                <img src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/2de91e83-2502-47a6-aaa6-99a65eec8bea/Derivates/59952bab-94cb-42e4-8ae4-3e3925f737b3.jpg"
+                    alt="the image of Spaghetti Aglio e Olio"
+                    height="40%"
+                    width="40%">
+                <h3>Spaghetti Aglio e Olio</h3>
+                <p>A classic Italian pasta made with garlic, olive oil, and chili flakes — simple yet full of flavor.
+                    Served with fresh parsley and parmesan cheese. <em>$12.99</em></p>
+            </article>
+            <article>
+                <img src="https://leitesculinaria.com/wp-content/uploads/2024/04/spaghetti-carbonara-1200.jpg"
+                    alt="the image of Carbonara"
+                    height="40%"
+                    width="40%">
+                <h3>Spaghetti Carbonara</h3>
+                <p>
+                    Rich and creamy spaghetti tossed with pancetta, egg yolk, and freshly ground black pepper.
+                    Topped with shaved pecorino cheese. <em>$13.99</em>
+                </p>
+            </article>
+            <article>
+                <img src="https://flavourise.com/wp-content/uploads/2024/04/prawn-bisque-pasta-main-1700x1700px.png"
+                    alt="the image of Prawn Bisuque Pasta"
+                    height="40%"
+                    width="40%">
+                <h3>Prawn Bisque Pasta</h3>
+                <p>
+                    Velvety seafood pasta in a prawn bisque sauce, finished with butter and herbs.
+                    A perfect balance of creamy and savory flavors. <em>$15.99</em>
+                </p>
+            </article>
+        </section>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+                <div>
+                    <label for="number-of-menu1">Spaghetti Aglio e Olio:</label>
+                    <input type="number" min="0" id="number-of-menu1">
+                </div>
+                <div>
+                    <label for="number-of-menu2">Spaghetti Carbonara:</label>
+                    <input type="number" min="0" id="number-of-menu2">
+                </div>
+                <div>
+                    <label for="number-of-menu3">Prawn Bisque Pasta:</label>
+                    <input type="number" min="0" id="number-of-menu3">
+                </div>
+                <br>
+                <div>
+                    <label for="side">Do you want sides?</label><br>
+                    <input type="radio" id="side-none" name="side" value="none">
+                    <label for="side-none">No, thanks</label><br>
+                    <input type="radio" id="side-bread" name="side" value="garlic-bread">
+                    <label for="side-bread">Garlic Bread (+$3.50)</label><br>
+                    <input type="radio" id="side-salad" name="side" value="salad">
+                    <label for="side-salad">Green Salad (+$4.00)</label>
+                </div>
+                <br>
+                <textarea>Feel free to write your special request!</textarea>
+                <br><br>
+                <label for="submit"></label>
+                <input type="submit" id="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with love by Coco</p>
+    </footer>
+</body>
